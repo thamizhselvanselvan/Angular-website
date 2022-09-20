@@ -1,0 +1,92 @@
+body {
+	margin: 0;
+	padding: 0;
+	font-family: 'Play', sans-serif;
+	font-size: 16px;
+	color: #000000;
+	font-weight: 400;
+	background-color: #ffffff;
+}
+
+*,
+div:before,
+div:after {
+	box-sizing: border-box;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+ul,
+li,
+p,
+form,
+figure {
+	margin: 0;
+	padding: 0;
+}
+
+.container {
+	max-width:1300px;;
+	margin: 0 auto;
+}
+.cnt-section{
+	display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.cnt-background{
+	background-color: #eeeeb0;
+	border: 1px solid #8e994d;
+    height: 300px;
+    width: 350px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.contact-form {
+	width: 300px;
+	display: grid;
+	grid-gap: 15px;
+}
+
+.contact-form :nth-child(1) {
+	padding: 5px 10px;
+	border-radius: 5px;
+	border: 1px solid #ccc;
+	height: 40px;
+}
+
+.contact-form :nth-child(2) {
+	padding: 5px 10px;
+	border-radius: 5px;
+	border: 1px solid #ccc;
+	height: 40px;
+}
+
+.contact-form :nth-child(3) {
+	padding: 5px 10px;
+	display: flex;
+    justify-content: center;
+    align-items: center;
+	border-radius: 5px;
+	border: 1px solid #ccc;
+	color: #ffffff;
+	height: 40px;
+}
+.contact-form :nth-child(4) {
+	padding: 5px 10px;
+	display: flex;
+    justify-content: center;
+    align-items: center;
+	border-radius: 5px;
+	border: 1px solid #ccc;
+	color: #ffffff;
+	height: 40px;
+	background-color: #8e994d;
+}
